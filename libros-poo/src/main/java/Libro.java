@@ -1,6 +1,6 @@
 
 /* @author IFEE09 */
-public class Libros {
+public class Libro {
 
     //atributos
     private long ISBN;
@@ -10,7 +10,7 @@ public class Libros {
     private static long contadorLibros = 0;
 
     //Metodo constructor
-    public Libros(int ISBN, String nomb, String autor, short numPaginas) {
+    public Libro(int ISBN, String nomb, String autor, short numPaginas) {
         this.ISBN = ISBN;
         this.nombre = nomb;
         this.autor = autor;

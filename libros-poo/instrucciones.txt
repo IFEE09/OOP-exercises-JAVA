@@ -1,0 +1,7 @@
+﻿Instrucciones del ejercicio:
+Se creará una clase Libro con los siguientes atributos:
+-ISBN -Autor -Título -Número de páginas
+Se generarán los métodos get y set en la respectiva clase además de su método constructor que admite cada uno de los atributos.
+Se tendrá un método dentro de la clase Libro para preguntar desde el main, cuantos objetos Libro han sido creados.
+Se generarán 2 objetos Libros en la clase Main (principal arranque del programa), y con el método toString(), se mostrarán los datos de cada libro.
+Se creará una función dentro de la clase Main llamada masPaginas(), para determinar cuál de los todos los libros creados tiene más páginas y se imprimirá en la consola.

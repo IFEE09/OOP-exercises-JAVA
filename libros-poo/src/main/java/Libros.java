@@ -15,7 +15,7 @@ public class Libros {
         this.nombre = nomb;
         this.autor = autor;
         this.numPaginas = numPaginas;
-        contadorLibros++;
+        this.contadorLibros++;
     }
 
     public long getISBN() {

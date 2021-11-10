@@ -9,7 +9,7 @@ Se creará una clase Libro con los siguientes atributos:
 
 Se generarán los métodos get y set en la respectiva clase además de su método constructor que admite cada uno de los atributos.
 
-Se tendrá un método cantidadLibros() dentro de la clase Libro para preguntar desde el main, cuantos objetos Libro han sido creados.
+Se tendrá un método getCantidadLibros() dentro de la clase Libro para preguntar desde el main, cuantos objetos Libro han sido creados.
 
 Se generarán 2 objetos Libros en la clase Main (principal arranque del programa), y con el método toString(), se mostrarán los datos de cada libro.
 

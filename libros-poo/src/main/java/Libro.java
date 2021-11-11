@@ -6,13 +6,13 @@ public class Libro {
     private long ISBN;
     private String nombre;
     private String autor;
-    private short numPaginas;
+    private int numPaginas;
     private static long contadorLibros = 0;
 
     //Metodo constructor
-    public Libro(int ISBN, String nomb, String autor, short numPaginas) {
+    public Libro(long ISBN, String nombre, String autor, int numPaginas) {
         this.ISBN = ISBN;
-        this.nombre = nomb;
+        this.nombre = nombre;
         this.autor = autor;
         this.numPaginas = numPaginas;
         this.contadorLibros++;
@@ -30,7 +30,7 @@ public class Libro {
         return autor;
     }
 
-    public short getNumPaginas() {
+    public int getNumPaginas() {
         return numPaginas;
     }
 
@@ -50,7 +50,7 @@ public class Libro {
         this.autor = autor;
     }
 
-    public void setNumPaginas(short numPaginas) {
+    public void setNumPaginas(int numPaginas) {
         this.numPaginas = numPaginas;
     }
     
@@ -60,10 +60,11 @@ public class Libro {
     
     @Override
     public String toString(){
-        return "\nLibro: " + nombre
-                + "\n Autor: " + autor
-                + "\n ISBN: " + ISBN
-                + "\n Numero de paginas: " + numPaginas;
+        return "Libro: " + nombre
+                + "\nAutor: " + autor
+                + "\nISBN: " + ISBN
+                + "\nNumero de paginas: " + numPaginas
+                + "\n";
     }
     
 }

@@ -1,5 +1,7 @@
 Instrucciones
 
-Crea una clase Contador con los métodos para incrementar y decrementar la cuenta, que sera el atributo. La clase contendrá un constructor por defecto, un constructor con parámetros, un constructor copia y los métodos getters y setters.
+Crea una clase Contador con los métodos para incrementar y decrementar la cuenta, que sera el atributo.
+La clase contendrá un constructor por defecto, un constructor con parámetros, un constructor copia 
+y los métodos getters y setters.
 
 Crea un objeto de cada tipo y con getCuenta(), imprime en consola para corroborar el ejercicio. 

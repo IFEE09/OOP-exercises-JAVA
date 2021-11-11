@@ -14,7 +14,8 @@ public class Main {
         
         System.out.println(cuenta_1.getCuenta());
         System.out.println(cuenta_2.getCuenta());
-        System.err.println(cuenta_3.getCuenta()); //observamos que el constructor sin parametros da por defecto al atributo cuenta el valor de 0
+        //observamos que el constructor sin parametros da por defecto al atributo cuenta el valor de 0
+        System.err.println(cuenta_3.getCuenta()); 
         System.out.println(cuenta_4.getCuenta());
         
     }

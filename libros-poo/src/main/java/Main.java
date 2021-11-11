@@ -13,6 +13,10 @@ public class Main {
         String libroMasPaginas = masPaginas(libro_1, libro_2);
         
         System.out.println(libroMasPaginas);
+        
+        long cantidadLibros = Libro.getCantidad();
+        
+        System.out.println("\nSe han creado " + cantidadLibros + " libros");
               
     }
     

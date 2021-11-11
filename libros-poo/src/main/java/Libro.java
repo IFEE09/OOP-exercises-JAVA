@@ -54,7 +54,7 @@ public class Libro {
         this.numPaginas = numPaginas;
     }
     
-    public long getCantidadLibros(){
+    public static long getCantidad(){
         return contadorLibros;
     }
     

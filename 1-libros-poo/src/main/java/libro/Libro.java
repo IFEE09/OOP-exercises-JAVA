@@ -1,72 +1,75 @@
 package libro;
 
-
 /* @author IFEE09 */
 public class Libro {
-
-    //atributos
-    private long ISBN;
-    private String nombre;
+    
+    //UpperCamelCase Clases
+    //lowerCamelCase atributos y variables, metodos
+    //Atributos
+    private String ISBN;
     private String autor;
+    private String nombre;
     private int numPaginas;
-    private static long contadorLibros = 0;
-
-    //Metodo constructor
-    public Libro(long ISBN, String nombre, String autor, int numPaginas) {
+    
+    //contador de libros global
+    private static int contadorLibros;
+    
+    //constructor default
+    public Libro(){
+        contadorLibros++;
+    }
+    
+    //Metodo constructor con parametros
+    public Libro(String ISBN, String autor, String nombre, int numPaginas){
         this.ISBN = ISBN;
-        this.nombre = nombre;
         this.autor = autor;
+        this.nombre = nombre;
         this.numPaginas = numPaginas;
-        this.contadorLibros++;
+        contadorLibros++;
     }
 
-    public long getISBN() {
+    public String getISBN() {
         return ISBN;
     }
 
-    public String getNombre() {
-        return nombre;
+    public void setISBN(String ISBN) {
+        this.ISBN = ISBN;
     }
 
     public String getAutor() {
         return autor;
     }
 
-    public int getNumPaginas() {
-        return numPaginas;
+    public void setAutor(String autor) {
+        this.autor = autor;
     }
 
-    public long getContadorLibros() {
-        return contadorLibros;
-    }
-    
-    public void setISBN(long ISBN) {
-        this.ISBN = ISBN;
+    public String getNombre() {
+        return nombre;
     }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public void setAutor(String autor) {
-        this.autor = autor;
+    public int getNumPaginas() {
+        return numPaginas;
     }
 
     public void setNumPaginas(int numPaginas) {
         this.numPaginas = numPaginas;
     }
     
-    public static long getCantidad(){
+    public static int getCantidadLibros(){
         return contadorLibros;
     }
     
     @Override
     public String toString(){
-        return "Libro: " + nombre
-                + "\nAutor: " + autor
+        return "\nAutor: " + autor 
+                + "\nNombre: " + nombre
                 + "\nISBN: " + ISBN
-                + "\nNumero de paginas: " + numPaginas
-                + "\n";
+                + "\nNumero Paginas: " + numPaginas;
     }
     
 }

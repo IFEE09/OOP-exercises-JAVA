@@ -2,12 +2,12 @@ Instrucciones del ejercicio:
 
 Se creara una clase Libro con los siguientes atributos con sus respectivos Getters y Setters:
 
--ISBN 
+-ISBN
 -Autor
--Nombre 
+-Nombre
 -Número de paginas
 
-Se creara un metodo constructor por defecto y otro que reciba los atributos como parametros. 
+Se creara un metodo constructor por defecto y otro que reciba los atributos como parametros.
 
 Se tendra un metodo getCantidadLibros() dentro de la clase Libro para preguntar desde el main, 
 cuantos objetos Libro han sido creados.

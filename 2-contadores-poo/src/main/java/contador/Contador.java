@@ -1,55 +1,67 @@
 package contador;
 
-
 /* @author IFEE09 */
 public class Contador {
     
+    //Atributo
+    
     private long cuenta;
     
-    //Constructor por defecto, es decir, sin parametros.
+    //Constructor por defeco
     public Contador(){
         
     }
     
-    //Constructor con parametros, en este caso donde empieza la cuenta
+    //Constructor con parametros
     public Contador(long cuenta){
         
-        if (cuenta >= 0){
-            this.cuenta = cuenta;
-        } else {
-            System.out.println("La cuenta no puede empezar en negativo, sera 0 por defecto\n");
-            this.cuenta = 0;
+        if(validarCuentaNegativa(cuenta)){
+            setCuenta(0);
+            return;
         }
+        
+        this.cuenta = cuenta;
         
     }
     
-    //Constructor copia que admite un objeto de la misma clase como parametro. 
-    public Contador(final Contador contador){
-        cuenta = contador.cuenta;
+    //Constructor copia
+    public Contador(Contador contador_1) {
+        this.cuenta = contador_1.getCuenta();
     }
-
-    //Getters y Setters
+    
     public long getCuenta() {
         return cuenta;
     }
 
     public void setCuenta(long cuenta) {
+        
+        if(validarCuentaNegativa(cuenta)){
+            this.cuenta = 0;
+            return;
+        }
+        
         this.cuenta = cuenta;
     }
     
-    //Metodos propios
-    public void aumentarCuenta(){
-        cuenta++;
+    public long incrementarCuenta(){
+        return cuenta++;
     }
     
-    public void decrementarCuenta(){
+    public long decrementarCuenta(){
+        return cuenta--;
+    }
+    
+    private boolean  validarCuentaNegativa(long cuenta){
         
-        if(cuenta <= 0){
-            System.out.println("No se puede decrementar una cuenta en ceros");
-            return;
+        boolean esNegativo = true;
+        
+        if (cuenta  < 0){
+            System.out.println("Error, no puede ser negativa la cuenta, entonces sera 0.");
+            return esNegativo;
         } 
         
-        cuenta--;
+        return !esNegativo;
+        
     }
-    
+        
 }

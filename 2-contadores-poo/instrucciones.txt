@@ -7,5 +7,5 @@ El Contador solo tendra cuenta como atributo.
 Los metodos seran los usuales Getters y Setters, otro para incrementar cuenta en una unidad, y otro para decrementar
 la cuenta en una unidad. 
 
-Crea un objeto de cada tipo en el Main,  llama a los metodos incrementar y decrementar de manera libre como prueba de 
-que funcionan, luego con el getCuenta(), imprime los resultados finales de la cuenta de cada contador.
+Crea un objeto con cada constructor en Main,  llama a los metodos incrementar y decrementar de manera libre como prueba de 
+que funcionan, luego con el getCuenta(), imprime los resultados de la cuenta de cada contador.

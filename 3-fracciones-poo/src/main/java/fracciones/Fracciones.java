@@ -18,6 +18,10 @@ public class Fracciones {
     //Metodo constructor con parametros
     public Fracciones(double numerador, double denominador){
         
+        this.numerador = numerador;
+        
+        esDenominadorNegativo(denominador);
+        
     }
 
     //metodos Getters y Setters
@@ -29,20 +33,17 @@ public class Fracciones {
         return denominador;
     }
 
-    public void setNumerador(Fracciones fraccion) {
-        System.out.println("Ingrese el numerador de la fraccion: " );
-        fraccion.numerador = entrada.nextDouble();
+    public void setNumerador() {
+        System.out.println("Ingrese el numerador de la fraccion: ");
+        numerador = entrada.nextDouble();
     }
 
-    public void setDenominador(Fracciones fraccion) {
-        
+    public void setDenominador() {
         System.out.println("Ingrese el denominador de la fraccion: ");
-        fraccion.denominador = entrada.nextDouble();
+        denominador = entrada.nextDouble();
         
-        while(denominador == 0){ //se valida que no se ingrese el denominador 0
-            System.out.println("Error, el denominador no puede ser 0\n ingrese de nuevo");
-            fraccion.denominador = entrada.nextDouble();
-        }
+        esDenominadorNegativo(denominador);
+        
     }
     
     //Funcion que recibe dos fracciones y las suma en el orden recibido
@@ -73,7 +74,7 @@ public class Fracciones {
             double resultado_Div = (fraccion_1.getNumerador() * fraccion_2.getDenominador())/
                     (fraccion_1.getDenominador()*fraccion_2.getNumerador());
             return resultado_Div;
-        } 
+        }
         
         System.out.println("Error, no se puede divir algo entre 0");
         return Double.NaN;
@@ -82,7 +83,17 @@ public class Fracciones {
     
     //funcion que recibe una fracion y te dice cual es
     public static void imprimirFraccion(Fracciones fraccion){
-        System.out.println("La fraccion ingresada es " + fraccion.getNumerador() + "/" + fraccion.getDenominador());
+        System.out.println("La fraccion es " + fraccion.getNumerador() + "/" + fraccion.getDenominador());
+    }
+    
+    //validador de denominador negativo.  
+    private void esDenominadorNegativo(double denominador){
+        
+        while(denominador == 0){
+            System.out.println("Error, denominador no puede ser cero, ingrese de nuevo:");
+            denominador = entrada.nextDouble();    
+            this.denominador = denominador;
+        }
     }
     
 }

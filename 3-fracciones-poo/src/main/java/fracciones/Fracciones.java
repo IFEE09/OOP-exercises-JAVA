@@ -18,7 +18,7 @@ public class Fracciones {
     //Metodo constructor con parametros
     public Fracciones(double numerador, double denominador){
         
-        this.numerador = numerador;
+        this.numerador = numerador; 
         
         esDenominadorNegativo(denominador);
         

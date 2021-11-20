@@ -27,5 +27,5 @@ public class Main {
         System.out.println(Fracciones.dividir(fraccion_1, fraccion_2));
         
     }
-
+    
 }

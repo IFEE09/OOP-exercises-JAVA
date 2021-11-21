@@ -16,7 +16,7 @@ public class Libro {
     
     //constructor default
     public Libro(){
-        contadorLibros++;
+        Libro.contadorLibros++;
     }
     
     //Metodo constructor con parametros
@@ -25,7 +25,7 @@ public class Libro {
         this.autor = autor;
         this.nombre = nombre;
         this.numPaginas = numPaginas;
-        contadorLibros++;
+        Libro.contadorLibros++;
     }
 
     public String getISBN() {

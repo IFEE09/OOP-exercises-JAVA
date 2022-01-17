@@ -17,7 +17,7 @@ public class Main {
         
         //Checando que el archivo no este vacio
         while((contenido = required.readLine()) != null){
-            System.out.println(contenido);
+            System.out.println(contenido); //Se imprime el contenido del archivo
         }
         
         

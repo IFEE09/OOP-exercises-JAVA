@@ -1,0 +1,1 @@
+crear un programa en java que lea un archivo y muestre su contenido, en caso de no existir, tirara una excepcion. 

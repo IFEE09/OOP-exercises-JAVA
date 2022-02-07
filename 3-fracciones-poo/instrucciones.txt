@@ -1,15 +1,13 @@
 Instrucciones:
 
-Crear una clase Fraccion, con un metodo constructor con parametros vacios y otro que pida el numerador
-y el denominador, los cuales seran atributos con sus respectivos metodos Setters y Getters, en los metodos 
-Setters se utilizara Scanner para leer por consola el numerador y denominador. 
-Incluya tambien los metodos sumar, restar, multiplicar y dividir, 
-los cuales recibiran como parametros dos Fracciones y realizan la operacion respectiva. 
+Crear una clase Fraccion, con un método constructor con parametros vacios y otro que pida el numerador y el denominador, los cuales seran atributos con sus respectivos metodos Setters y Getters. 
+En los métodos Setters se utilizara Scanner para leer por consola el numerador y denominador. 
+Incluya tambien los métodos sumar, restar, multiplicar y dividir, los cuales recibiran como parametros dos fracciones y realizan la operacion respectiva. 
 
 Se necesitara una funcion que valide que no se este introduciendo un denominador negativo. 
 Se validara tambien en el metodo division que el denominador no sea cero. 
 
-En el main se demostrara libremente que cada uno de los metodos y validaciones funcionan. 
+En el main se demostrara libremente que cada uno de los métodos y validaciones funcionan. 
 
 (Teclado sin enie ni acentos, disculpen). 
 

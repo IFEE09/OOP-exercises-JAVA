@@ -17,3 +17,5 @@ Se generaran 2 objetos Libros en la clase Main,  y con el metodo toString(), se 
 
 Se creara una funcion dentro de la clase Main llamada masPaginas() que reciba como parametros 2 libros 
 para determinar cuál de los todos los libros creados tiene más páginas y se imprimirá en la consola. Se llamará a esta función y se le pasarán los dos libros creados anteriormente.
+
+(Teclado sin enie ni acentos, disculpen)

@@ -1,24 +1,22 @@
 package Complejos;
 /* @author IFEE09 */
 public class Complejo {
-    
     //atributos
     private double parteReal;
     private double parteImaginaria;
-    
+
     //constructor con parametros
     public Complejo(double parteReal, double parteImaginaria){
         this.parteReal = parteReal;
         this.parteImaginaria = parteImaginaria;
-        
         if(parteImaginaria >= 0){
             System.out.println(parteReal + "+" + parteImaginaria + "i");
         } else {
             System.out.println(parteReal + "" + parteImaginaria + "i");
         }
-        
     }
 
+    //Metodos del objeto
     public double getParteReal() {
         return parteReal;
     }

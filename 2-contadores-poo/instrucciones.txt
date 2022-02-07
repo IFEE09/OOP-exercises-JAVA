@@ -8,3 +8,5 @@ Los metodos seran los usuales Getters y Setters, otro para incrementar la cuenta
 la cuenta en una unidad. 
 
 Crea un objeto con cada constructor en Main,  llama a los metodos incrementar y decrementar de manera libre como prueba de que funcionan, luego con el getCuenta(), imprime los resultados de la cuenta de cada contador.
+
+(Teclado sin enie ni acentos, disculpen)

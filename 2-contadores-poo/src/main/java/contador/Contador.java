@@ -49,16 +49,12 @@ public class Contador {
     }
     
     private boolean  validarCuentaNegativa(long cuenta){
-        
         boolean esNegativo = true;
-        
         if (cuenta  < 0){
             System.out.println("Error, no puede ser negativa la cuenta, entonces sera 0.");
             return esNegativo;
-        } 
-        
+        }
         return !esNegativo;
-        
     }
         
 }

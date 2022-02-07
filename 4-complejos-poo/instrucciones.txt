@@ -2,7 +2,7 @@ Crear una clase llamada Complejo que represente a un numero complejo.
 
 De atributos tendra la parte real y la parte imaginaria, metodos usuales Getters 
 y Setters. Ademas tendra los metodos de las operaciones elementales para 
-poder sumar, restar, multiplicar y dividir dos Complejos creados. 
+poder sumar, restar, multiplicar y dividir dos complejos creados.
 El resultado que imprime cada metodo sera del tipo: "3 + 4i"
 
 Exito. 

@@ -1,6 +1,6 @@
 package com.mycompany.complejos.poo;
 
-import Complejos.Complejo;
+import complejos.Complejo;
 
 /* @author IFEE09 */
 public class Main {

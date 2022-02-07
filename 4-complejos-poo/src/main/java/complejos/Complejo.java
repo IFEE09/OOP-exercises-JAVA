@@ -1,4 +1,4 @@
-package Complejos;
+package complejos;
 /* @author IFEE09 */
 public class Complejo {
     //atributos
@@ -35,7 +35,7 @@ public class Complejo {
     
     //Metodos de la clase
     public static Complejo sumarComplejos(Complejo complejo_1, Complejo complejo_2){
-        
+
         double resultadoReal = complejo_1.getParteReal() +  complejo_2.getParteReal();
         double resultadoImaginario = complejo_1.getParteImaginaria() + complejo_2.getParteImaginaria();
        

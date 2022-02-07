@@ -3,9 +3,8 @@ Instrucciones
 Crea una clase Contador el cual representa a una persona. 
 La clase contendrá un constructor por defecto, un constructor que reciba parametros, y un constructor copia que reciba Contadores. 
 
-El Contador solo tendra cuenta como atributo. 
-Los metodos seran los usuales Getters y Setters, otro para incrementar cuenta en una unidad, y otro para decrementar
+La clase Contador solo tendra cuenta como atributo. 
+Los metodos seran los usuales Getters y Setters, otro para incrementar la cuenta en una unidad, y otro para decrementar
 la cuenta en una unidad. 
 
-Crea un objeto con cada constructor en Main,  llama a los metodos incrementar y decrementar de manera libre como prueba de 
-que funcionan, luego con el getCuenta(), imprime los resultados de la cuenta de cada contador.
+Crea un objeto con cada constructor en Main,  llama a los metodos incrementar y decrementar de manera libre como prueba de que funcionan, luego con el getCuenta(), imprime los resultados de la cuenta de cada contador.

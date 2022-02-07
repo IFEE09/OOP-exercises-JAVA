@@ -1,13 +1,13 @@
 Instrucciones del ejercicio:
 
-Se creara una clase Libro con los siguientes atributos con sus respectivos Getters y Setters:
+Se creará una clase Libro con los siguientes atributos con sus respectivos Getters y Setters:
 
 -ISBN
 -Autor
 -Nombre
 -Número de paginas
 
-Se creara un metodo constructor por defecto y otro que reciba los atributos como parametros.
+Se creará un método constructor por defecto y otro que reciba los atributos como parámetros.
 
 Se tendra un metodo getCantidadLibros() dentro de la clase Libro para preguntar desde el main, 
 cuantos objetos Libro han sido creados.
@@ -15,5 +15,5 @@ cuantos objetos Libro han sido creados.
 Se generaran 2 objetos Libros en la clase Main,  y con el metodo toString(), se mostraran los datos de cada libro. 
 (Se debe de sobrescribir toString() para esto). 
 
-Se creara una funcion dentro de la clase Main llamada masPaginas() que reciba como parametros 2 libros,
-para determinar cuál de los todos los libros creados tiene más páginas y se imprimirá en la consola.
+Se creara una funcion dentro de la clase Main llamada masPaginas() que reciba como parametros 2 libros 
+para determinar cuál de los todos los libros creados tiene más páginas y se imprimirá en la consola. Se llamará a esta función y se le pasarán los dos libros creados anteriormente.

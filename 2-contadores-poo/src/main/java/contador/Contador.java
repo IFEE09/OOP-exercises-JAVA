@@ -2,28 +2,25 @@ package contador;
 
 /* @author IFEE09 */
 public class Contador {
-    
-    //Atributo
-    
+
+    //Atributos
     private long cuenta;
-    
-    //Constructor por defeco
+
+    //Constructor por defecto
     public Contador(){
         
     }
-    
+
     //Constructor con parametros
     public Contador(long cuenta){
-        
+        //Si la cuenta es negativa se inicializará en ceros
         if(validarCuentaNegativa(cuenta)){
             setCuenta(0);
             return;
         }
-        
         this.cuenta = cuenta;
-        
     }
-    
+
     //Constructor copia
     public Contador(Contador contador_1) {
         this.cuenta = contador_1.getCuenta();
